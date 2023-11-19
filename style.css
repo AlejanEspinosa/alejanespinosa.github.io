@@ -1,0 +1,211 @@
+body{
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #F7F9F9;
+    font-family: Arial;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #454545;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larg#CB8EFE;
+}
+.header h1{
+    margin-left: 30px;
+}
+nav{
+    margin-top: 33px;
+    text-decoration: none;
+    background-color: #454545;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    font-size: larger;
+}
+a:hover{
+    color: #CB8EFE;
+}
+.presentacion{
+    display: grid;
+    justify-content: space-evenly;
+    text-align: center;
+    color: purple; 
+}
+.presentacion img{
+    margin-left: 70px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px 4px hsla(272, 100%, 27%, 0.8);
+}
+.sobre{
+    background-color: #D2B4DE;
+    color: #382647;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 180px;
+    margin-right: 180px;
+    border-radius: 10px;
+    border: solid #8F0FFF;
+    box-shadow: 0px 0px 8px 8px hsl(286, 36%, 78%, 0.8);
+    text-align: justify;
+}
+.sobre h2{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+.sobre-bg{
+    padding: 10px;
+    padding-bottom: 10px;
+    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cajas{
+    display: flex;
+    justify-content: space-around;
+    background-color: #D2B4DE;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    margin-left: 180px;
+    margin-right: 180px;
+    height: 800px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 4px hsl(325, 98%, 61%, 0.6) ;
+}
+#proyecto1{
+    padding: 10px;
+    padding-bottom: 10px;
+    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#proyecto2{
+    padding: 10px;
+    padding-bottom: 10px;
+    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#proyecto3{
+    padding: 10px;
+    padding-bottom: 10px;
+    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#proyecto4{
+    position: absolute;
+    line-height: 25spx;
+    bottom: -105px;
+    text-align: justify;
+    color: #382647;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #CB8EFE;
+    padding: 20px;
+    border-radius: 25pt;
+    box-shadow: 0px 6px 6px purple;
+}
+#proyecto4 h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+}
+.footer{
+    background-color: #454545;
+    text-align: center;
+    padding: 8px;
+    bottom: 0;
+    margin-top: 60px;
+    margin-bottom: 0;
+    color: white;
+}
+.footer .contacto{
+    margin-bottom: 0px;
+    margin-top: 60px;
+}
+.contacto{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: 30px;
+    background-color: #F7F9F9;
+    border-radius: solid #836C96;
+    box-shadow: 0px 0px 4px 4px hsl(269, 100%, 50%, 0.8);
+}
+.correo{
+    background-color: #3ABDF5;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 4px 4px hsl(0, 0%, 50%, 0.7);
+    width: 200px;
+    height: 350px;
+}
+.correo img{
+    size: 50%;
+}
+.telefono{
+    background-color: DarkSeaGreen	;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 4px 4px hsl(0, 0%, 50%, 0.7);
+    width: 200px;
+    height: 350px;
+}
+.redes{
+   background-color: #FD3CAB;
+   border-radius: 10px;
+   padding: 20px;
+   box-shadow: 0px 0px 4px 4px hsl(0, 0%, 50%, 0.7); 
+   width: 200px;
+   height: 350px;
+}
+.ha{
+    display: contents;
+    justify-content: center;
+    color:blue;
+}
+#habilidades{
+    display: inline-block;
+    background-color: #CB8EFE;
+    color: #382647;
+    border-radius: 25px;
+    padding: 20px;
+    padding-bottom: 45px;
+    margin-right: 40px;
+    width: 450px;
+    height: 260px;
+    text-align: justify;
+    box-shadow: 0px 0px 8px 8px hsl(272, 100%, 85%, 0.8);
+    border: solid white;
+}
+#habilidades h2{
+    text-align: center;
+}
+#datos{
+    display: inline-block;
+    background-color: #CB8EFE;
+    color: #382647;
+    border-radius: 25px;
+    padding: 20px;
+    padding-bottom: 45px;
+    margin-left: 40px;
+    width: 450px;
+    height: 200px;
+    text-align: justify;
+    vertical-align: 20px;
+    box-shadow: 0px 0px 8px 8px hsl(272, 100%, 85%, 0.8);
+    border: solid white
+}
+#datos h2{
+    text-align: center;
+}
